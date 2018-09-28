@@ -1,6 +1,6 @@
 // Write your code in this file!
 function scuberGreetingForFeet(distance) {
-  let response
+  let response;
   if (distance <= 400) {
     response = 'This one is on me!';
   } else if (distance >= 2001 && distance <= 2500) {
@@ -8,5 +8,9 @@ function scuberGreetingForFeet(distance) {
   } else if (distance >= 2501) {
     response = 'No can do.';
   }
-  return response
+  return response;
+}
+
+function ternaryCheckCity(city) {
+  
 }
